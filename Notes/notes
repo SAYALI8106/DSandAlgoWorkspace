@@ -1,0 +1,34 @@
+| **Approach / Technique** | **Short Recall**                                  |
+| ------------------------ | ------------------------------------------------- |
+| Brute Force              | Try every possible solution                       |
+| Two Pointers             | Two indices move through the array                |
+| Sliding Window           | Maintain a continuous window efficiently          |
+| HashMap                  | Fast lookup and frequency counting                |
+| HashSet                  | Store unique elements, fast existence check       |
+| Prefix Sum               | Cumulative sum for range/subarray queries         |
+| Prefix Sum + HashMap     | Longest/count subarrays with given sum            |
+| XOR                      | Duplicate cancellation, unique element            |
+| Bit Manipulation         | Use binary operations (`&, \|, ^, ~, <<, >>`)     |
+| Modulo (%)               | Remainder, circular indexing, divisibility        |
+| Recursion                | Solve smaller version of the same problem         |
+| Divide & Conquer         | Split → Solve → Combine                           |
+| Reverse Technique        | Reverse parts of array/string                     |
+| Sorting                  | Arrange elements to simplify problems             |
+| Bubble Sort              | Repeated adjacent swaps                           |
+| Selection Sort           | Select minimum repeatedly                         |
+| Insertion Sort           | Insert element in correct position                |
+| Merge Sort               | Stable divide-and-conquer sorting                 |
+| Quick Sort               | Partition around a pivot                          |
+| Binary Search            | Search efficiently in sorted data                 |
+| Frequency Counting       | Count occurrences using array/HashMap             |
+| Mathematical Approach    | Use formulas or mathematical properties           |
+| Greedy                   | Choose the best local option                      |
+| Simulation               | Follow the process exactly as described           |
+| Swap Technique           | Exchange elements efficiently                     |
+| Partitioning             | Divide array around a pivot                       |
+| In-place Algorithm       | Modify data without extra space                   |
+| Ordered Collections      | Elements stored in sorted order (TreeMap/TreeSet) |
+| Unordered Collections    | Hash-based storage (HashMap/HashSet)              |
+| Time Complexity          | Analyze running time (Big-O)                      |
+| Space Complexity         | Analyze extra memory used                         |
+| Dry Run                  | Trace algorithm step by step                      |
