@@ -53,11 +53,13 @@ public class MaximunSubarray {
     return maxSum;
   }
 
+  // Kadane's algorithm - a dynamic programming technique used to find the maximum sum of a contiguous subarray within a one-dimensional array of numbers. It solves this problem in a single pass, resulting in an optimal O(n) time complexity and O(1) space complexity. For every element, you make a greedy choice: either extend the existing subarray by adding the current element to current_max, or start a brand new subarray at the current element (if the previous current_max dragged the sum below zero).
+
   public static int maxSumSubArray(int nums[]) {
     int maxSum = Integer.MIN_VALUE;
     int sum = 0;
-    int startIndex = 0;
-    int endIndex = 0;
+    int startIndex = -1;
+    int endIndex = -1;
     for (int i = 0; i < nums.length; i++) {
       if (sum == 0) {
         startIndex = i;
