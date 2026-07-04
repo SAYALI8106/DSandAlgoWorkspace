@@ -33,3 +33,4 @@
 | Space Complexity         | Analyze extra memory used                         |
 | Dry Run                  | Trace algorithm step by step                      |
 |Dutch National Flag algorithm.|an in-place sorting technique designed to categorize an array of three distinct values (commonly 0s, 1s, and 2s) in a single pass.|
+|Moore's Voting algorithm | The Boyer-Moore Majority Voting Algorithm is an optimal, highly efficient method for finding the "majority element" in an array (an element that appears more than \(\frac{N}{2}\) times). It does this in \(\mathcal{O}(N)\) time complexity and \(\mathcal{O}(1)\) space complexity by using a smart candidate-cancellation logic|
