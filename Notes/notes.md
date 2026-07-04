@@ -32,3 +32,4 @@
 | Time Complexity          | Analyze running time (Big-O)                      |
 | Space Complexity         | Analyze extra memory used                         |
 | Dry Run                  | Trace algorithm step by step                      |
+|Dutch National Flag algorithm.|an in-place sorting technique designed to categorize an array of three distinct values (commonly 0s, 1s, and 2s) in a single pass.|
