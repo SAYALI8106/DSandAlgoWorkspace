@@ -72,5 +72,9 @@ public class SortColors {
   }
 }
 
+// 0, low-1  : O's
+// low, mid-1 : 1's
+// mid, high-1 : unsorted part
+// high, n-1  : 2's
 // 0 1 2
 // [0,1,2] low=1 mid=2 high=1
