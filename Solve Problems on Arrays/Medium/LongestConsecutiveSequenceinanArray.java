@@ -1,5 +1,6 @@
 import java.util.*;
 
+public class LongestConsecutiveSequenceinanArray{
  // public boolean linearSearch(int nums[], int key) {
 
     //     for (int i = 0; i < nums.length; i++) {
