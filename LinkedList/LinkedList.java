@@ -41,6 +41,16 @@ public class LinkedList {
     return count;
   }
 
+  public static boolean checkIfPresent(Node head, int val) {
+    Node temp = head;
+    while (temp != null) {
+      if (temp.data == val)
+        return true;
+      temp = temp.next;
+    }
+    return false;
+  }
+
   public static void main(String[] args) {
     int arr[] = { 2, 5, 8, 7 };
     // int arr[] = { 2 };
@@ -58,8 +68,19 @@ public class LinkedList {
     // temp = temp.next;
     // }
 
-    int cnt = getLengthOfLL(head);
-    System.out.println("The length of the LinkedList is: " + cnt);
+    // int cnt = getLengthOfLL(head);
+    // System.out.println("The length of the LinkedList is: " + cnt);
 
+    if (checkIfPresent(head, 2)) {
+      System.out.println("The element is present");
+    } else {
+      System.out.println("The element is not present");
+
+    }
   }
 }
+
+// Traversal : time -> O(n) space -> O(1)
+// Length : time -> O(n) space -> O(1)
+// Searching : time -> O(n) for worst case O(n/2) for the avg case if the target
+// is in between and O(1) for the best case if the head itself is the target.
