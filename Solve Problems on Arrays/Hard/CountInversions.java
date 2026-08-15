@@ -1,6 +1,10 @@
 public class CountInversions {
 
   public static int countInversions(int arr[]) {
+
+    // time -> O(n^2)
+    // space -> O(1)
+
     int cnt = 0;
     for (int i = 0; i < arr.length; i++) {
       for (int j = i + 1; j < arr.length; j++) {
