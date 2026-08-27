@@ -2,12 +2,33 @@
 public class LowerBound {
   public static int findLowerBound(int arr[], int N, int x) {
 
-    for (int i = 0; i < N; i++) {
-      if (arr[i] >= x) {
-        return i;
+    // brute force
+    // time : O(n)
+    // space : O(1)
+
+    // for (int i = 0; i < N; i++) {
+    // if (arr[i] >= x) {
+    // return i;
+    // }
+    // }
+
+    // return N;
+
+    int low = 0;
+    int high = N;
+    int ans = N;
+    while (low <= high) {
+      int mid = (low + high) / 2;
+
+      if (arr[mid] >= x) {
+        ans = mid;
+        high = mid - 1;
+      } else {
+        low = mid + 1;
       }
     }
-    return N;
+
+    return ans;
   }
 
   public static void main(String[] args) {
