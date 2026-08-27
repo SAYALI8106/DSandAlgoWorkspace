@@ -1,15 +1,13 @@
 
 public class LowerBound {
   public static int findLowerBound(int arr[], int N, int x) {
-    int lowerBound = N;
 
     for (int i = 0; i < N; i++) {
       if (arr[i] >= x) {
-        lowerBound = i;
-        break;
+        return i;
       }
     }
-    return lowerBound;
+    return N;
   }
 
   public static void main(String[] args) {
