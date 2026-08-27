@@ -14,6 +14,9 @@ public class LowerBound {
 
     // return N;
 
+    // time - O(logn)
+    // space - O(1)
+
     int low = 0;
     int high = N;
     int ans = N;
